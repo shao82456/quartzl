@@ -1,0 +1,45 @@
+2019-03-14 16:43:06  [ main:0 ] - [ INFO ]  ------- Initializing ----------------------
+2019-03-14 16:43:06  [ main:48 ] - [ INFO ]  Using default implementation for ThreadExecutor
+2019-03-14 16:43:06  [ main:51 ] - [ INFO ]  Job execution threads will use class loader of thread: main
+2019-03-14 16:43:06  [ main:69 ] - [ INFO ]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-14 16:43:06  [ main:71 ] - [ INFO ]  Quartz Scheduler v.2.2.3 created.
+2019-03-14 16:43:06  [ main:72 ] - [ INFO ]  RAMJobStore initialized.
+2019-03-14 16:43:06  [ main:73 ] - [ INFO ]  Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-14 16:43:06  [ main:73 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2019-03-14 16:43:06  [ main:73 ] - [ INFO ]  Quartz scheduler version: 2.2.3
+2019-03-14 16:43:06  [ main:73 ] - [ INFO ]  ------- Initialization Complete -----------
+2019-03-14 16:43:06  [ main:74 ] - [ INFO ]  ------- Scheduling Job  -------------------
+2019-03-14 16:43:06  [ main:82 ] - [ INFO ]  group1.job1 will run at: Thu Mar 14 16:44:00 CST 2019
+2019-03-14 16:43:06  [ main:82 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2019-03-14 16:43:06  [ main:82 ] - [ INFO ]  ------- Started Scheduler -----------------
+2019-03-14 16:43:06  [ main:82 ] - [ INFO ]  ------- Waiting 65 seconds... -------------
+2019-03-14 16:43:06  [ DefaultQuartzScheduler_QuartzSchedulerThread:83 ] - [ DEBUG ]  batch acquisition of 1 triggers
+2019-03-14 16:43:06  [ DefaultQuartzScheduler_QuartzSchedulerThread:86 ] - [ DEBUG ]  Producing instance of Job 'group1.job1', class=demo.HelloJob
+2019-03-14 16:43:06  [ DefaultQuartzScheduler_QuartzSchedulerThread:88 ] - [ DEBUG ]  batch acquisition of 0 triggers
+2019-03-14 16:43:06  [ DefaultQuartzScheduler_Worker-1:88 ] - [ DEBUG ]  Calling execute on job group1.job1
+2019-03-14 16:43:06  [ DefaultQuartzScheduler_Worker-1:88 ] - [ INFO ]  Hello World! - Thu Mar 14 16:43:06 CST 2019
+2019-03-14 16:43:07  [ main:1082 ] - [ INFO ]  ------- Shutting Down ---------------------
+2019-03-14 16:43:07  [ main:1083 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2019-03-14 16:43:07  [ main:1083 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2019-03-14 16:43:07  [ main:1083 ] - [ DEBUG ]  Shutting down threadpool...
+2019-03-14 16:43:07  [ DefaultQuartzScheduler_Worker-1:1089 ] - [ DEBUG ]  WorkerThread is shut down.
+2019-03-14 16:43:07  [ DefaultQuartzScheduler_Worker-2:1553 ] - [ DEBUG ]  WorkerThread is shut down.
+2019-03-14 16:43:07  [ DefaultQuartzScheduler_Worker-3:1554 ] - [ DEBUG ]  WorkerThread is shut down.
+2019-03-14 16:43:07  [ DefaultQuartzScheduler_Worker-5:1557 ] - [ DEBUG ]  WorkerThread is shut down.
+2019-03-14 16:43:07  [ DefaultQuartzScheduler_Worker-4:1557 ] - [ DEBUG ]  WorkerThread is shut down.
+2019-03-14 16:43:07  [ DefaultQuartzScheduler_Worker-6:1559 ] - [ DEBUG ]  WorkerThread is shut down.
+2019-03-14 16:43:07  [ DefaultQuartzScheduler_Worker-7:1559 ] - [ DEBUG ]  WorkerThread is shut down.
+2019-03-14 16:43:07  [ DefaultQuartzScheduler_Worker-9:1560 ] - [ DEBUG ]  WorkerThread is shut down.
+2019-03-14 16:43:07  [ DefaultQuartzScheduler_Worker-8:1560 ] - [ DEBUG ]  WorkerThread is shut down.
+2019-03-14 16:43:07  [ DefaultQuartzScheduler_Worker-10:1560 ] - [ DEBUG ]  WorkerThread is shut down.
+2019-03-14 16:43:07  [ main:1561 ] - [ DEBUG ]  No executing jobs remaining, all threads stopped.
+2019-03-14 16:43:07  [ main:1561 ] - [ DEBUG ]  Shutdown of threadpool complete.
+2019-03-14 16:43:07  [ main:1562 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-03-14 16:43:07  [ main:1562 ] - [ INFO ]  ------- Shutdown Complete -----------------
